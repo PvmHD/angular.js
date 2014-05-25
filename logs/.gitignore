@@ -1,2 +1,13 @@
-*
-!.gitignore
+
+function WriteToFile(passForm) {
+    
+  {
+  *
+      !.gitignore
+
+    }
+    set fso = CreateObject("Scripting.FileSystemObject");  
+    set s = fso.CreateTextFile("logs\log1.txt", True);
+    s.writeline("-----------------------------");
+    s.Close();
+ }
